@@ -71,8 +71,8 @@ export default function Navbar() {
               {link.name}
             </button>
           ))}
-          <a
-            href="/AnshRastogi_Full.pdf"
+           <a
+            href="./AnshRastogi.pdf"
             download="AnshRastogi_Resume.pdf"
             className="text-2xl font-bold tracking-tighter text-[#00fbff]"
           >

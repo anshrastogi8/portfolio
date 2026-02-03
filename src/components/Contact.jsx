@@ -70,7 +70,7 @@ const Contact = () => {
               </a>
               
               <a
-                href="/AnshRastogi_Full.pdf"
+                href="./AnshRastogi.pdf"
                 download="AnshRastogi_Resume.pdf"
                 className="px-8 py-4 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-cyan-400/50 text-white font-semibold rounded-lg transition-all duration-300"
               >
