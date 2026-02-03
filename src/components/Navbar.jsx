@@ -8,7 +8,7 @@ export default function Navbar() {
     const elm = document.getElementById(id);
     if (elm) {
       elm.scrollIntoView({ behavior: "smooth" });
-      setIsOpen(false); 
+      setIsOpen(false);
     }
   };
 
@@ -21,7 +21,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 w-full h-[70px] bg-[#000000] backdrop-blur-md flex items-center justify-between px-6 md:px-16 z-[100] border-b border-[#111111] text-white">
-      <div 
+      <div
         className="flex items-center gap-2 text-[26px] font-bold tracking-tighter cursor-pointer"
         onClick={() => scrollToSection("home")}
       >
@@ -40,9 +40,9 @@ export default function Navbar() {
             {link.name}
           </button>
         ))}
-        
+
         <a
-          href="/AnshRastogi_Full.pdf"
+          href="./AnshRastogi.pdf"
           download="AnshRastogi_Resume.pdf"
           className="text-[14px] font-medium tracking-wide border border-white/10 px-4 py-1.5 rounded-full hover:border-[#00fbff] hover:text-[#00fbff] transition-all uppercase font-mono"
         >
@@ -50,7 +50,7 @@ export default function Navbar() {
         </a>
       </div>
 
-      <button 
+      <button
         className="md:hidden text-white p-2"
         onClick={() => setIsOpen(!isOpen)}
       >
@@ -71,7 +71,7 @@ export default function Navbar() {
               {link.name}
             </button>
           ))}
-           <a
+          <a
             href="./AnshRastogi.pdf"
             download="AnshRastogi_Resume.pdf"
             className="text-2xl font-bold tracking-tighter text-[#00fbff]"
